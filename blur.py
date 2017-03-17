@@ -22,7 +22,7 @@ while(True):
 
     bilateral = cv2.bilateralFilter(img, 15,75,75)
 
-    cv2.imshow('blured',bilateral) #or show smoothened, or blur, or median
+    cv2.imshow('blured',bilateral) #or show smoothened, or blur, or medianggggg
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
 cap.release()
